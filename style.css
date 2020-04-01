@@ -1,0 +1,142 @@
+body{
+	display:flex;
+}
+form
+{
+	border: 2px solid black;
+    width: 50%;
+    margin: 8% 15%;
+    margin-bottom: 50px;
+	padding:13px;
+}
+form h1
+{
+	text-align:center;
+	font-size:2rem;
+}
+form span
+{
+	padding-left:30px;
+	font-size:20px;
+}
+form input
+{
+	margin-left:30px;
+	margin-bottom:20px;
+	
+	
+}
+#third
+{
+	height: 9vh;
+    width: 28%;
+    margin-left: 36%;
+    font-size: 20px;
+    background: darkred;
+    color: white;
+}
+#first
+{
+	height:6vh;
+	width:90%;
+}
+#second
+{
+	height:6vh;
+	width:90%;
+}
+
+label{
+	    margin-left: 4%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.pop {
+  background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    width: 50.2%;
+    text-align: center;
+    border: none;
+    outline: none;
+    /* transition: 0.4s; */
+    margin-left: 297px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+    height: 14vh;
+  
+}
+
+
+.active:hover 
+{
+  background-color: grey;
+}
+ .pop:hover 
+{
+  background-color: #ccc;
+}
+
+
+.desc {
+  padding-left:0px;
+  background-color:#EEEEEE;
+  display: none;
+  width: 50.2%;
+  overflow: hidden;
+  margin-left:315px;
+}
+
+#added{
+	margin-top: 7%;
+    margin-left: -25%;
+}
+
+@media (min-width: 426px ) and (max-width: 768px) {
+  body {
+    display:block;
+  }
+  
+  .pop{
+	  width:44%;
+  }
+}
+
+@media (min-width: 376px ) and (max-width: 426px) {
+	body{
+		display:block;
+	}
+	
+	.pop{
+		margin-left:172px;
+	}
+	
+	form h1{
+		font-size: 1.5rem;
+	}
+	
+	label{
+		font-size:1.2rem;
+	}
+	
+	#first{
+		width: 78%;
+	}
+	
+	#second{
+		width: 78%;
+	}
+	
+	#third{
+		width: 41%;
+    margin-left: 32%;
+	}
+	
+	#added{
+		margin-left: -30%;
+	}
+}
+
